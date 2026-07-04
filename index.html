@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,15 +9,16 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 </head>
+
 <body>
     <header class="header">
-        <a href="#" class="logo">Portfolio</a>
+        <a href="#" class="logo"><span>Portfolio</span></a>
         <nav class="navbar">
             <a href="#home" style="--i:1;" class="active">Home</a>
             <a href="#about" style="--i:2;">About</a>
             <a href="#services" style="--i:3;">Services</a>
             <a href="#skills" style="--i:4;">Skills</a>
-            <a href="#portfolio" style="--i:5;">Portfolio</a>
+            <!-- <a href="#portfolio" style="--i:5;">Portfolio</a> -->
             <a href="#contact" style="--i:6;">Contact</a>
         </nav>
     </header>
@@ -26,30 +28,52 @@
             <h3>Hello, it's me</h3>
             <h1>Vindhya</h1>
             <h3>And I'm a <span class="text"></span></h3>
-            <p>I'm a skilled web designer with expertise in creating and designing websites and front-end user interfaces. I turn ideas into stunning, functional digital experiences.</p>
+            <p class="home-description">
+                Passionate Full Stack Developer specializing in building responsive, scalable, and high-performance web
+                applications using the MERN stack. With a strong focus on clean code, intuitive user experiences, and
+                modern development practices, I enjoy transforming innovative ideas into reliable digital solutions. I
+                am committed to continuous learning and delivering quality software that creates real value.
+            </p>
             <div class="home-sci">
-                <a href="#" style="--i:7;"><i class='bx bxl-facebook'></i></a>
-                <a href="#" style="--i:8;"><i class='bx bxl-instagram'></i></a>
-              <a href="www.linkedin.com/in/vindhya-lakshmii/" target="_blank" style="--i:10;">
-  <i class='bx bxl-linkedin'></i>
-</a>
+                <a href="https://github.com/Vindhya-Lakshmi/" target="_blank" style="--i:11;">
+                    <i class='bx bxl-github'></i>
+                </a>
+                <a href="https://www.linkedin.com/in/vindhya-lakshmii/" target="_blank" style="--i:10;"> <i
+                        class='bx bxl-linkedin'></i>
+                </a>
 
-<a href="https://github.com/Vindhya-Lakshmi/" target="_blank" style="--i:11;">
-  <i class='bx bxl-github'></i>
-</a>
+                <a href="https://leetcode.com/u/Vindhyalakshmi/" target="_blank" style="--i:7;">
+                    <i class='bx bx-code-alt'></i>
+                </a>
+                <a href="#" style="--i:8;"><i class='bx bxl-instagram'></i></a>
+
+
+
             </div>
-            <a href="#contact" class="btn-box">Let's Connect</a>
-        </div>
+            <div class="hero-buttons">
+                <a href="https://github.com/Vindhya-Lakshmi" target="_blank" class="btn-box">
+                    View Projects
+                </a>
+
+                <a href="assets/Vindhya Resume.pdf" target="_blank" class="btn-box">
+                    Download Resume
+                </a>
+            </div>
     </section>
 
     <section class="about" id="about">
         <div class="about-img">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_mgEQrWz7MYgXm4AO34TKFUUSN99Gtvpvfg&s" alt="Vindhya's profile picture">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_mgEQrWz7MYgXm4AO34TKFUUSN99Gtvpvfg&s"
+                alt="Vindhya's profile picture">
         </div>
         <div class="about-text">
             <h2>About <span>Me</span></h2>
             <h4>Full Stack Developer!</h4>
-            <p>I am a highly analytical and results-driven developer with expertise in HTML, CSS, JavaScript, and modern front-end frameworks like React. I specialize in building dynamic and responsive user interfaces that not only meet but exceed client expectations. My passion lies in crafting innovative solutions and bringing creative designs to life with clean, efficient, and maintainable code. Let's create something amazing together.</p>
+            <p>I am a highly analytical and results-driven developer with expertise in HTML, CSS, JavaScript, and modern
+                front-end frameworks like React. I specialize in building dynamic and responsive user interfaces that
+                not only meet but exceed client expectations. My passion lies in crafting innovative solutions and
+                bringing creative designs to life with clean, efficient, and maintainable code. Let's create something
+                amazing together.</p>
             <a href="#contact" class="btn-box">Hire Me</a>
         </div>
     </section>
@@ -60,19 +84,25 @@
             <div>
                 <i class='bx bx-code-alt'></i>
                 <h2>Web Development</h2>
-                <p>I build robust, scalable web applications from scratch, leveraging modern front-end technologies to create seamless user experiences. My focus is on writing clean, efficient, and maintainable code that meets the highest standards of performance and accessibility.</p>
+                <p>I build robust, scalable web applications from scratch, leveraging modern front-end technologies to
+                    create seamless user experiences. My focus is on writing clean, efficient, and maintainable code
+                    that meets the highest standards of performance and accessibility.</p>
                 <a href="#" class="read">learn more</a>
             </div>
             <div>
                 <i class='bx bxl-figma'></i>
                 <h2>UI/UX Design</h2>
-                <p>I design intuitive and user-friendly interfaces for web and mobile applications. I'm skilled in tools like Figma and Sketch, focusing on creating exceptional user experiences through careful research and iterative design processes.</p>
+                <p>I design intuitive and user-friendly interfaces for web and mobile applications. I'm skilled in tools
+                    like Figma and Sketch, focusing on creating exceptional user experiences through careful research
+                    and iterative design processes.</p>
                 <a href="#" class="read">learn more</a>
             </div>
             <div>
                 <i class='bx bxs-paint'></i>
                 <h2>Graphic Design</h2>
-                <p>My creativity extends to crafting compelling visual content. From logos to branding materials, I create designs that communicate effectively and leave a lasting impression, ensuring a cohesive look and feel across all platforms.</p>
+                <p>My creativity extends to crafting compelling visual content. From logos to branding materials, I
+                    create designs that communicate effectively and leave a lasting impression, ensuring a cohesive look
+                    and feel across all platforms.</p>
                 <a href="#" class="read">learn more</a>
             </div>
         </div>
@@ -89,11 +119,14 @@
                         <div class="info"><span>HTML</span></div>
                         <div class="progress-line html"><span></span></div>
                     </div>
+
+                    
                     <div class="bar">
                         <i class='bx bxl-css3'></i>
                         <div class="info"><span>CSS</span></div>
                         <div class="progress-line css"><span></span></div>
                     </div>
+                    
                     <div class="bar">
                         <i class='bx bxl-javascript'></i>
                         <div class="info"><span>Javascript</span></div>
@@ -104,8 +137,46 @@
                         <div class="info"><span>React</span></div>
                         <div class="progress-line react"><span></span></div>
                     </div>
+                    <div class="bar">
+    <i class='bx bxl-nodejs'></i>
+    <div class="info"><span>Node.js</span></div>
+    <div class="progress-line nodejs"><span></span></div>
+</div>
+
+<div class="bar">
+    <i class='bx bx-server'></i>
+    <div class="info"><span>Express.js</span></div>
+    <div class="progress-line express"><span></span></div>
+</div>
+
+<div class="bar">
+    <i class='bx bxl-mongodb'></i>
+    <div class="info"><span>MongoDB</span></div>
+    <div class="progress-line mongodb"><span></span></div>
+</div>
+
+<!-- <div class="bar">
+    <i class='bx bxl-git'></i>
+    <div class="info"><span>Git</span></div>
+    <div class="progress-line git"><span></span></div>
+</div> -->
+
+<div class="bar">
+    <i class='bx bxl-bootstrap'></i>
+    <div class="info"><span>Bootstrap</span></div>
+    <div class="progress-line bootstrap"><span></span></div>
+</div>
+
+<div class="bar">
+    <i class='bx bx-cloud-upload'></i>
+    <div class="info"><span>Cloudinary</span></div>
+    <div class="progress-line cloudinary"><span></span></div>
+</div>
                 </div>
+
+                
             </div>
+            
             <div class="professional-skills">
                 <h2 class="heading">Professional Skills</h2>
                 <div class="radial-bars">
@@ -141,6 +212,35 @@
                         <div class="percentage">85%</div>
                         <div class="text">Teamwork</div>
                     </div>
+
+
+                    <div class="radial-bar">
+    <svg x="0px" y="0px" viewBox="0 0 200 200">
+        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+        <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+    </svg>
+    <div class="percentage">85%</div>
+<div class="text">
+    Time<br>Management
+</div></div>
+
+<div class="radial-bar">
+    <svg x="0px" y="0px" viewBox="0 0 200 200">
+        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+        <circle class="path path-2" cx="100" cy="100" r="80"></circle>
+    </svg>
+    <div class="percentage">88%</div>
+    <div class="text">Adaptability</div>
+</div>
+
+<div class="radial-bar">
+    <svg x="0px" y="0px" viewBox="0 0 200 200">
+        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+        <circle class="path path-3" cx="100" cy="100" r="80"></circle>
+    </svg>
+    <div class="percentage">80%</div>
+    <div class="text">Leadership</div>
+</div>
                 </div>
             </div>
         </div>
@@ -148,17 +248,29 @@
 
     <section class="contact" id="contact">
         <h2 class="contact-title">Contact <span>Me</span></h2>
-        <form action="#" class="contact-form">
+
+        <form id="contact-form" class="contact-form">
+
             <div class="input-box">
-                <input type="text" placeholder="Full Name" required>
-                <input type="email" placeholder="Email Address" required>
+
+                <input type="text" name="name" placeholder="Full Name" required>
+
+                <input type="email" name="email" placeholder="Email Address" required>
+
             </div>
+
             <div class="input-box">
-                <input type="tel" placeholder="Mobile Number" required>
-                <input type="text" placeholder="Email Subject" required>
+
+                <input type="tel" name="phone" placeholder="Mobile Number" required>
+
+                <input type="text" name="subject" placeholder="Email Subject" required>
+
             </div>
-            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
+
+            <textarea name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+
             <input type="submit" value="Send Message" class="btn-box">
+
         </form>
     </section>
 
@@ -173,4 +285,5 @@
 
     <script src="main.js"></script>
 </body>
+
 </html>
