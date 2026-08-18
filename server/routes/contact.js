@@ -14,17 +14,15 @@ router.post("/", async (req, res) => {
             service: "gmail",
 
             auth: {
-               user: process.env.EMAIL_USER,
-               pass: process.env.EMAIL_PASS,
-}
+                user: process.env.EMAIL_USER,
+                pass: process.env.EMAIL_PASS,
+            }
         });
 
         await transporter.sendMail({
-
-            from: email,
-
+            from: process.env.EMAIL_USER,
             to: "vindhyalakshmiofficial@gmail.com",
-
+            replyTo: email,
             subject: subject,
 
             html: `
